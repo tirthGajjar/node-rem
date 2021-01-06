@@ -678,6 +678,13 @@ axios@^0.18.0:
     follow-redirects "^1.3.0"
     is-buffer "^1.1.5"
 
+axios@^0.21.1:
+  version "0.21.1"
+  resolved "https://registry.yarnpkg.com/axios/-/axios-0.21.1.tgz#22563481962f4d6bde9a76d516ef0e5d3c09b2b8"
+  integrity sha512-dKQiRHxGD9PPRIUNIWvZhPTPpl1rf/OxTYKsqKUDjBwYylTvV7SjSHJb9ratfyzM6wCdLCOYLzs73qpg5c4iGA==
+  dependencies:
+    follow-redirects "^1.10.0"
+
 backo2@1.0.2:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/backo2/-/backo2-1.0.2.tgz#31ab1ac8b129363463e35b3ebb69f4dfcfba7947"
@@ -2092,7 +2099,7 @@ etag@~1.8.1:
 
 event-stream@~0.5:
   version "0.5.3"
-  resolved "http://registry.npmjs.org/event-stream/-/event-stream-0.5.3.tgz#b77b9309f7107addfeab63f0c0eafd8db0bd8c1c"
+  resolved "https://registry.npmjs.org/event-stream/-/event-stream-0.5.3.tgz#b77b9309f7107addfeab63f0c0eafd8db0bd8c1c"
   integrity sha1-t3uTCfcQet3+q2PwwOr9jbC9jBw=
   dependencies:
     optimist "0.2"
@@ -2442,12 +2449,10 @@ flatted@^2.0.0:
   resolved "https://registry.yarnpkg.com/flatted/-/flatted-2.0.0.tgz#55122b6536ea496b4b44893ee2608141d10d9916"
   integrity sha512-R+H8IZclI8AAkSBRQJLVOsxwAoHd6WC40b4QTNWIjzAa6BXOBfQcM587MXDTVPeYaopFNWHUFLx7eNmHDSxMWg==
 
-follow-redirects@^1.3.0:
-  version "1.5.1"
-  resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.5.1.tgz#67a8f14f5a1f67f962c2c46469c79eaec0a90291"
-  integrity sha512-v9GI1hpaqq1ZZR6pBD1+kI7O24PhDvNGNodjS3MdcEqyrahCp8zbtpv+2B/krUnSmUH80lbAS7MrdeK5IylgKg==
-  dependencies:
-    debug "^3.1.0"
+follow-redirects@^1.10.0, follow-redirects@^1.3.0:
+  version "1.13.1"
+  resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.13.1.tgz#5f69b813376cee4fd0474a3aba835df04ab763b7"
+  integrity sha512-SSG5xmZh1mkPGyKzjZP8zLjltIfpW32Y5QpdNJyjcfGxK3qo3NDDkZOZSFiGn1A6SclQxY9GzEwAHQ3dmYRWpg==
 
 for-in@^1.0.1, for-in@^1.0.2:
   version "1.0.2"
@@ -4532,7 +4537,7 @@ nconf@0.6.9, nconf@~0.6.9:
 
 ncp@0.4.x:
   version "0.4.2"
-  resolved "http://registry.npmjs.org/ncp/-/ncp-0.4.2.tgz#abcc6cbd3ec2ed2a729ff6e7c1fa8f01784a8574"
+  resolved "https://registry.npmjs.org/ncp/-/ncp-0.4.2.tgz#abcc6cbd3ec2ed2a729ff6e7c1fa8f01784a8574"
   integrity sha1-q8xsvT7C7Spyn/bnwfqPAXhKhXQ=
 
 needle@^2.2.1:
@@ -6622,7 +6627,7 @@ triple-beam@^1.2.0, triple-beam@^1.3.0:
   resolved "https://registry.yarnpkg.com/triple-beam/-/triple-beam-1.3.0.tgz#a595214c7298db8339eeeee083e4d10bd8cb8dd9"
   integrity sha512-XrHUvV5HpdLmIj4uVMxHggLbFSZYIn7HEWsqePZcI50pco+MPqJ50wMGY794X7AOOhxOBAjbkqfAbEe/QMp2Lw==
 
-ts-node@^8.0.2:
+ts-node@8.0.2:
   version "8.0.2"
   resolved "https://registry.yarnpkg.com/ts-node/-/ts-node-8.0.2.tgz#9ecdf8d782a0ca4c80d1d641cbb236af4ac1b756"
   integrity sha512-MosTrinKmaAcWgO8tqMjMJB22h+sp3Rd1i4fdoWY4mhBDekOwIAKI/bzmRi7IcbCmjquccYg2gcF6NBkLgr0Tw==
@@ -6985,7 +6990,7 @@ winston-transport@^4.3.0:
 
 winston@0.8.0:
   version "0.8.0"
-  resolved "http://registry.npmjs.org/winston/-/winston-0.8.0.tgz#61d0830fa699706212206b0a2b5ca69a93043668"
+  resolved "https://registry.npmjs.org/winston/-/winston-0.8.0.tgz#61d0830fa699706212206b0a2b5ca69a93043668"
   integrity sha1-YdCDD6aZcGISIGsKK1ymmpMENmg=
   dependencies:
     async "0.2.x"
@@ -6997,7 +7002,7 @@ winston@0.8.0:
 
 winston@0.8.x, winston@~0.8.1:
   version "0.8.3"
-  resolved "http://registry.npmjs.org/winston/-/winston-0.8.3.tgz#64b6abf4cd01adcaefd5009393b1d8e8bec19db0"
+  resolved "https://registry.npmjs.org/winston/-/winston-0.8.3.tgz#64b6abf4cd01adcaefd5009393b1d8e8bec19db0"
   integrity sha1-ZLar9M0Brcrv1QCTk7HY6L7BnbA=
   dependencies:
     async "0.2.x"
